@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidTraning</string>
+    <string name="sub_title">サブ画面タイトル</string>
+    <string name="データを入力してください" />
+    <string name="camera">カメラ起動</string>
+    <string-array name="currylist">
+        <item>ドライカレー</item>
+        <item>カツカレー</item>
+    </string-array>
+
+</resources>

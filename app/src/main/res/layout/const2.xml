@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="48dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="プロフィール"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="名前を入力してください"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="322dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="パスワードは数値で入力してください"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="81dp"
+        android:layout_height="51dp"
+        android:text="クリア"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:text="クリア"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="年代"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10代"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20代"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30代"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="男"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="393dp"
+        android:layout_height="37dp"
+        android:text="確認"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
